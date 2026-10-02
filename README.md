@@ -164,10 +164,6 @@ mostrando el mismo mensaje de negocio que la API REST devuelve como JSON 409.
 
 ## Capturas de pantalla
 
-**API REST — GET `/api/reservas` (JSON):**
-
-![API REST JSON](docs/screenshots/04-rest-json.jpg)
-
 **Vista MVC — lista de reservas (`/reservas`):**
 
 ![Lista MVC](docs/screenshots/01-mvc-lista.jpg)
@@ -181,10 +177,6 @@ La vista muestra el mensaje "El laboratorio Lab. Computo 3 ya tiene una reserva
 en ese horario", idéntico al que la API REST devuelve como JSON con código 409.
 
 ![Error de conflicto en MVC](docs/screenshots/03-mvc-conflicto.jpg)
-
-**Consola H2 — tablas `laboratorios` y `reservas` con la FK `laboratorio_id`:**
-
-![Consola H2](docs/screenshots/05-h2-console.jpg)
 
 ## Herramientas utilizadas
 
